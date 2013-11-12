@@ -118,8 +118,8 @@ no repetidas a la 'Q' y a la 'X' </section>
 <section id="comment">#Para Devlabs-USB Tarea 1<br></section>
 <br>
 import sys<br>
-archivo  = open ("sowpods.txt")<br>
-archivo = archivo.read()<br>
+dictionary  = open ("sowpods.txt")<br>
+archivo = dictionary.read()<br>
 <br>
 def main():<br>
 &nbsp;&nbsp;&nbsp;    result = []<br>
@@ -136,6 +136,7 @@ def main():<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        print 'Todas las letras se repiten de manera continua al menos una vez'<br>
 <br>
 main()<br>
+dictionary.close()<br>
 </section>
 <section id="answer">
        También puede revisar el código <a href="https://github.com/jaescalante02/tarea1-git/blob/gh-pages/Scrabble.py" target="blank">aquí</a>

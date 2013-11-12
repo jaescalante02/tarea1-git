@@ -4,8 +4,8 @@
 #Para Devlabs-USB Tarea 1
 
 import sys
-archivo  = open ("sowpods.txt")
-archivo = archivo.read()
+dictionary  = open ("sowpods.txt")
+archivo = dictionary.read()
 
 def main():
     result = []
@@ -22,3 +22,4 @@ def main():
         print 'Todas las letras se repiten de manera continua al menos una vez'
 
 main()
+dictionary.close()
